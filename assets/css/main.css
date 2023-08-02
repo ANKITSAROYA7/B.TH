@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "gilroyBold";
+    src: url(../font/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
+}
+
+.ff-gilroy-bold{
+    font-family: "gilroyBold";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    transition: 200ms;
+}
+
+
+.footer-section{
+    padding: 84px;
+}
