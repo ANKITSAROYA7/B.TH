@@ -1,6 +1,3 @@
-
-
-
 :root {
     --ff-primary: 'Gilroy', sans-serif;
 
@@ -12,25 +9,26 @@
     --fs-xxl: 48px;
     --fs-xxls: 56px;
 
-   
+
     --regular: 400;
     --medium: 500;
     --semiBold: 600;
     --bold: 700;
-  
+
 
     --primary-color: #0D0D0D;
     --white-color: #fff !important;
     --black-color: #000000;
     --secondary-color: #807D7D;
-    --tertiary-color:#E6EFEC;
-
+    --tertiary-color: #E6EFEC;
+    --Dark-color: #236E57;
+    --Danger-color: #F05830;
 }
+
 
 .ff_primary {
     font-family: var(--ff-primary);
 }
-
 
 .fs_sm {
     font-size: var(--fs-sm);
@@ -55,7 +53,8 @@
 .fs_xxl {
     font-size: var(--fs-xxl);
 }
-.fs_xxls{
+
+.fs_xxls {
     font-size: var(--fs-xxls);
 }
 
@@ -92,6 +91,43 @@
 .secondary_color {
     color: var(--secondary-color) !important;
 }
-.tertiary_color{
+
+.tertiary_color {
     color: var(--tertiary-color);
 }
+.dark_color{
+    color: var(--Dark-color);
+}
+.danger_color{
+    color: var(--Danger-color);
+}
+/* media-query-start */
+@media (min-width:320px) {
+    :root {
+        --fs-sm: 18px;
+        --fs-md: 14px;
+        --fs-lg: 24px;
+        --fs-xl: 32px;
+        --fs-xls: 40px;
+        --fs-xxl: 48px;
+        --fs-xxls: 36px;
+    }
+}
+
+@media (min-width:576px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {
+    :root {
+            --fs-sm: 18px;
+            --fs-md: 20px;
+            --fs-lg: 24px;
+            --fs-xl: 56px;
+            --fs-xls: 40px;
+            --fs-xxl: 48px;
+            --fs-xxls: 36px;
+        }
+}
+
+@media (min-width:1200px) {}
